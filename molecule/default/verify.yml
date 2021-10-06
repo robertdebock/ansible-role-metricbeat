@@ -6,7 +6,7 @@
 
   tasks:
     - name: try metricbeat version
-      command:
+      ansible.builtin.command:
         cmd: metricbeat version
       register: metricbeat_test_one
       failed_when:
