@@ -1,0 +1,8 @@
+---
+#
+# Ansible managed
+#
+repository:
+  description: Install and configure Metricbeat, manage Metricbeat modules.
+  homepage: https://robertdebock.nl/
+  topics: metricbeat, ansible, molecule, tox, playbook, hacktoberfest

@@ -1,0 +1,13 @@
+---
+- name: Verify
+  hosts: all
+  become: yes
+  gather_facts: yes
+
+  tasks:
+    - name: try metricbeat version
+      command:
+        cmd: metricbeat version
+      register: metricbeat_test_one
+      failed_when:
+        - '"metricbeat version 7" not in metricbeat_test_one.stdout'
