@@ -8,7 +8,7 @@
 
 - name: intall metricbeat
   ansible.builtin.package:
-    name: metricbeat-{{ metricbeat_version }}
+    name: "{{ metricbeat_package }}"
     state: present
 
 - name: configure metricbeat
