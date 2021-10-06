@@ -1,5 +1,12 @@
 ---
 
+- name: test if metricbeat_version is set correctly
+  ansible.builtin.assert:
+    that:
+      - metricbeat_version is defined
+      - metricbeat_version is string
+    quiet: yes
+
 - name: test if metricbeat_modules is set correctly
   ansible.builtin.assert:
     that:
