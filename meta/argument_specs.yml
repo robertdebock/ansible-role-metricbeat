@@ -8,7 +8,7 @@ argument_specs:
     options:
       metricbeat_version:
         type: "str"
-        default: "7.10.2"
+        default: 7.10.2
         description: "The version of metricbeat to install."
       metricbeat_modules:
         type: "list"
@@ -19,14 +19,14 @@ argument_specs:
         default: ["http://localhost:9200"]
         description: "A list of elasticsearch hosts."
       metricbeat_elasticsearch_username:
-        type: "string"
+        type: "str"
         default: elastic
         description: "The username for elasicsearch."
       metricbeat_elasticsearch_password:
-        type: "string"
+        type: "str"
         default: ""
         description: "The password for elasicsearch."
       metricbeat_kibana_host:
-        type: "string"
+        type: "str"
         default: "http://localhost:5601"
         description: "The URL for Kibana."
