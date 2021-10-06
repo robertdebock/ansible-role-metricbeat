@@ -29,7 +29,7 @@
   loop_control:
     label: "{{ item.name }}"
   when:
-    - item.state == "enabled"
+    - item.state is not defined or item.state == "enabled"
 
 - name: disable metricbeat module
   command:
