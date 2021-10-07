@@ -37,7 +37,7 @@
 - name: disable metricbeat module
   ansible.builtin.command:
     cmd: metricbeat modules disable {{ item.name }}
-    removes: /etc/metricbeat/modules.d/{{ item.name }}.yml
+    creates: /etc/metricbeat/modules.d/{{ item.name }}.yml.disabled
   loop: "{{ metricbeat_modules }}"
   loop_control:
     label: "{{ item.name }}"
