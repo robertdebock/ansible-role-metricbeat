@@ -27,7 +27,7 @@
     creates: /etc/metricbeat/modules.d/{{ item.name }}.yml
   notify:
     - metricbeat setup
-    - metricbeat restart
+    - restart metricbeat
   loop: "{{ metricbeat_modules }}"
   loop_control:
     label: "{{ item.name }}"
