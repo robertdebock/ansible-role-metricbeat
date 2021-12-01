@@ -48,7 +48,7 @@ The default values for the variables are set in `defaults/main.yml`:
 # defaults file for metricbeat
 
 # The version of metricbeat to install.
-metricbeat_version: 7.10.2
+metricbeat_version: "7.15.2"
 
 # A list of modules to enable.
 metricbeat_modules: []
