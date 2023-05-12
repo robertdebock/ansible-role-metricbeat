@@ -5,7 +5,7 @@
   gather_facts: yes
 
   tasks:
-    - name: try metricbeat version
+    - name: Try metricbeat version
       ansible.builtin.command:
         cmd: metricbeat version
       register: metricbeat_test_one
