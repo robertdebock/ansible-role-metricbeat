@@ -5,6 +5,7 @@
     that:
       - metricbeat_version is defined
       - metricbeat_version is string
+      - metricbeat_version is not none
     quiet: yes
 
 - name: assert | Test if metricbeat_modules is set correctly
@@ -39,6 +40,7 @@
     that:
       - metricbeat_elasticsearch_username is defined
       - metricbeat_elasticsearch_username is string
+      - metricbeat_elasticsearch_username is not none
     quiet: yes
 
 - name: assert | Test if metricbeat_elasticsearch_password is set correctly
@@ -46,6 +48,7 @@
     that:
       - metricbeat_elasticsearch_password is defined
       - metricbeat_elasticsearch_password is string
+      - metricbeat_elasticsearch_password is not none
     quiet: yes
 
 - name: assert | Test if metricbeat_kibana_host is set correctly
@@ -53,4 +56,5 @@
     that:
       - metricbeat_kibana_host is defined
       - metricbeat_kibana_host is string
+      - metricbeat_kibana_host is not none
     quiet: yes
