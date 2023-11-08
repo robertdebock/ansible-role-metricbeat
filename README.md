@@ -2,9 +2,9 @@
 
 Install and configure Metricbeat, manage Metricbeat modules.
 
-|GitHub|GitLab|Quality|Downloads|Version|
-|------|------|-------|---------|-------|
-|[![github](https://github.com/robertdebock/ansible-role-metricbeat/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-metricbeat/actions)|[![gitlab](https://gitlab.com/robertdebock-iac/ansible-role-metricbeat/badges/master/pipeline.svg)](https://gitlab.com/robertdebock-iac/ansible-role-metricbeat)|[![quality](https://img.shields.io/ansible/quality/56439)](https://galaxy.ansible.com/robertdebock/metricbeat)|[![downloads](https://img.shields.io/ansible/role/d/56439)](https://galaxy.ansible.com/robertdebock/metricbeat)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-metricbeat.svg)](https://github.com/robertdebock/ansible-role-metricbeat/releases/)|
+|GitHub|GitLab|Downloads|Version|
+|------|------|---------|-------|
+|[![github](https://github.com/robertdebock/ansible-role-metricbeat/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-metricbeat/actions)|[![gitlab](https://gitlab.com/robertdebock-iac/ansible-role-metricbeat/badges/master/pipeline.svg)](https://gitlab.com/robertdebock-iac/ansible-role-metricbeat)|[![downloads](https://img.shields.io/ansible/role/d/24537)](https://galaxy.ansible.com/robertdebock/metricbeat)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-metricbeat.svg)](https://github.com/robertdebock/ansible-role-metricbeat/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -109,7 +109,7 @@ The minimum version of Ansible required is 2.12, tests have been done to:
 - The current version.
 - The development version.
 
-If you find issues, please register them in [GitHub](https://github.com/robertdebock/ansible-role-metricbeat/issues)
+If you find issues, please register them in [GitHub](https://github.com/robertdebock/ansible-role-metricbeat/issues).
 
 ## [License](#license)
 
