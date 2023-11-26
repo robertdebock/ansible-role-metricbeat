@@ -1,4 +1,4 @@
-# Ansible role [metricbeat](#metricbeat)
+# [Ansible role metricbeat](#metricbeat)
 
 Install and configure Metricbeat, manage Metricbeat modules.
 
