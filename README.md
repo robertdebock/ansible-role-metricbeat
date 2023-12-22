@@ -1,5 +1,7 @@
 # [Ansible role metricbeat](#metricbeat)
 
+> THIS ROLE HAS BEEN ARCHIVED AS OF DEC 2023.
+
 Install and configure Metricbeat, manage Metricbeat modules.
 
 |GitHub|GitLab|Downloads|Version|
